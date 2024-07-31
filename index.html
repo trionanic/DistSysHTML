@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript App</title>
+</head>
+<body>
+    <h1>Welcome to My Simple JavaScript App</h1>
+    <p id="greeting">Click the button to see a greeting:</p>
+    <button onclick="displayGreeting()">Click Me!</button>
+
+    <script>
+        function displayGreeting() {
+            document.getElementById('greeting').innerText = 'Hello, World! This is a JavaScript message.';
+        }
+    </script>
+</body>
+</html>
