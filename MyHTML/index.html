@@ -14,7 +14,7 @@
         function displayGreeting() {
 		    const now = new Date();
             const time = now.toLocaleTimeString() + '.' + now.getMilliseconds().toString().padStart(3, '0');
-            document.getElementById('greeting').innerText = 'Hello, World! This is a JavaScript message.\nTime:  ${time}';
+            document.getElementById('greeting').innerText = `Hello, World! This is a JavaScript message.\nTime:  ${time}`;
         }
     </script>
 </body>
